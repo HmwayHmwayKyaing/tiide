@@ -2,9 +2,9 @@ from flask import Flask
 
 myapp = Flask(__name__)
 
-@myapp.route("/")
-def hello():
-    return "Hello World"
+@myapp.route("/hmwayhmway")
+def hmwayhmway():
+    return "Hello hmwayhmway"
 
 @myapp.route("/tiide")
 def tiide():
